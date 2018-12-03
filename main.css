@@ -1,0 +1,15 @@
+.round{
+    border-radius: 50%;
+}
+
+.notasround{
+    border-radius: 40px;
+}
+
+.leffty{
+    margin-left: 350px;
+}
+
+.notnotasround{
+    border-radius: 10px;
+}
