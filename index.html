@@ -4,6 +4,9 @@
       <link rel="stylesheet" text="type/css" href="bootstrap-4.1.2-dist/css/bootstrap.css">
       <link rel="stylesheet" text="type/css" href="main.css">
       <link rel="stylesheet" text="type/css" href="style.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>      
       <title>Home</title>
     </head>
 
@@ -12,7 +15,7 @@
         <div class="container">
           <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
-              <a class="nav-link active grow" href="index.html">Home</a>
+              <a class="nav-link grow" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link grow" href="Nguyen_AboutMe.html">About Me</a>
@@ -21,13 +24,17 @@
               <a class="nav-link grow" href="Nguyen_Resume.html">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link grow" href="Nguyen_Projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link grow" href="Nguyen_ContactMe.html">Contact Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link grow" href="other.html">Other</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+              <div class="dropdown-menu">
+                <a class="nav-link doc-link dropdown-item active grow" href="Nguyen_Projects.html">Image Manipulation</a>
+                <a class="nav-link doc-link dropdown-item active grow" href="HANGMAN.html">Hangman Project</a>
+              </div>  
             </li>
           </ul>
         
@@ -44,7 +51,7 @@
               the world with my skills.
             </p>
             <p>
-              <a href="Nguyen_AboutMe.html">Continue reading...</a>
+              <a href="Nguyen_AboutMe.html" class="doc-link grow">Continue reading...</a>
             </p>
           </div>
         </div>
@@ -55,18 +62,37 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
+                <h6 class="card-title">
+                  Dublin High Clubs
+                </h6>
+                <div class="float-right">
+                  <img src="Images/VSUimg.png" width="200px" height="230px" alt="Buddhist Youth Group (GDPT) logo">
+                </div>
+                <h3 class="card-title">VSU Club</h3>
+                <h5 class="card-title">Vietnamese Student Union 2019</h5>
+                <p class="card-text">I am the current Vietnamese Student Union 
+                Vice-President. I help coordinate, set-up, and organize 
+                activities related to Vietnamese culture.
+                </p>
+                <a href="Nguyen_Resume.html" class="doc-link grow">Continue reading...</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
                 <h6 class="card-title">Work Experience</h6>
                 <div class="float-right">
-                  <img src="Images/444.PNG" width="200px" height="220px" alt = "Building of 4yourbusiness">
+                  <img src="Images/444.PNG" width="200px" height="230px" alt = "Building of 4yourbusiness">
                 </div>
                 <h3 class="card-title">4yourbuisiness</h3>
                 <h5 class="card-title">Summer 2018</h5>
                 <p class="card-text">
                 Over the summer, I worked at my family business 
-                called 4yourbusiness. I tested hard drives, and I learned how to test 
-                switches for customers
+                called 4yourbusiness. I worked as an Operations Technician.
                 </p>
-                <a href="Nguyen_Resume.html">Continue reading...</a>
+                <a href="Nguyen_Resume.html" class="doc-link grow">Continue reading...</a>
               </div>
             </div>
           </div>
@@ -76,33 +102,13 @@
               <div class="card-body">
                 <h6 class="card-title">Volunteer Experience</h6>
                 <div class="float-right">
-                  <img src="Images/kidsagainst.jpg" width="200px" height="220px" alt="Kids Against Hunger logo">
+                  <img src="Images/kidsagainst.jpg" width="200px" height="230px" alt="Kids Against Hunger logo">
                 </div>
                 <h3 class="card-title">Kids Against Hunger</h3>
                 <h5 class="card-title">Summer 2018</h5>
                 <p class="card-text">I volunteered for a non-profit organization called Kids 
                 Against Hunger. I packaged food for kids all over Asia and Africa.</p>
-                <a href="Nguyen_Resume.html">Continue reading...</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h6 class="card-title">
-                  Volunteer Experience
-                </h6>
-                <div class="float-right">
-                  <img src="Images/gdpt.png" width="200px" height="250px" alt="Buddhist Youth Group (GDPT) logo">
-                </div>
-                <h3 class="card-title">GDPT</h3>
-                <h5 class="card-title">Youth Group</h5>
-                <p class="card-text">I am a team leader at a buddhist 
-                youth group called Gia Dinh Phat Tu, or GDPT. Every 
-                Sunday, I go to this youth group and I learn as well as 
-                teach other kids. 
-                </p>
-                <a href="Nguyen_Resume.html">Continue reading...</a>
+                <a href="Nguyen_Resume.html" class="doc-link grow">Continue reading...</a>
               </div>
             </div>
           </div>
@@ -112,17 +118,18 @@
               <div class="card-body">
                 <h6 class="card-title">Projects</h6>
                 <div class="float-right">
-                  <img src="Images/appinininin.PNG" width="200px" height="250px" alt="Picture of App Inventor project">
+                  <img src="Images/HANGERMAN.PNG" width="200px" height="230px" alt="Picture of Hangman project">
                 </div>
                 <h3 class="card-title">
-                  App Inventor Project
+                  Hangman Project
                 </h3>
                 <h5 class="card-title">
-                  Summer 2018
+                  CSP 2019
                 </h5>
-                <p class="card-text">This project was made with my partner Juan. We 
-                modified a simple game into an complex game with multiple new features.</p>
-                <a href="Nguyen_Projects.html">Continue reading...</a>
+                <p class="card-text">For my Hangman Python project, I had to 
+                write a program which showcased my expertise with functions 
+                and loops.</p>
+                <a href="HANGMAN.html" class="doc-link grow"s>Continue reading...</a>
               </div>
             </div>
           </div>

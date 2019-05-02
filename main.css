@@ -13,3 +13,12 @@
 .notnotasround{
     border-radius: 10px;
 }
+
+.doc-link{
+    text-decoration: none;
+}
+
+.doc-link:hover, .doc.link:focus {
+    text-decoration: none;
+    color: 	#FF4500;
+}
