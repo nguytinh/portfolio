@@ -3101,6 +3101,7 @@ input[type="button"].btn-block {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
+  width: 100%;
 }
 
 .dropdown-menu-right {
@@ -6035,7 +6036,8 @@ button.close {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: transparent no-repeat center center;
+  background: #FF4500 no-repeat center center;
+  color: #FF4500;
   background-size: 100% 100%;
 }
 
