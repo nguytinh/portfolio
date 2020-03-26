@@ -3219,14 +3219,14 @@ input[type="button"].btn-block {
   display: block;
   width: 100%;
   height: 110%;
-  padding: 0.1rem 0.5rem;
+  padding: 0.5rem 3rem;
   clear: both;
   font-weight: 400;
   color: #131313;
   text-align: inherit;
   white-space: nowrap;
   background-color: #131313;
-  border: 0;
+  border: 2px;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
