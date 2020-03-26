@@ -3113,7 +3113,7 @@ input[type="button"].btn-block {
   top: auto;
   bottom: 100%;
   margin-top: 0;
-  margin-bottom: 0.125rem;
+  margin-bottom: 0rem;
 }
 
 .dropup .dropdown-toggle::after {
